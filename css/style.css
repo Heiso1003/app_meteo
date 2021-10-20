@@ -87,7 +87,12 @@ h2 {
 h3 {
   color: white;
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
+  font-weight: regular;
+}
+
+#capital {
+  color: white !important;
+  padding: 45px;
 }
 
 span {
