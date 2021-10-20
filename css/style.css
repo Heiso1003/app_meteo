@@ -93,6 +93,10 @@ h3 {
 span {
   font-family: "Roboto", sans-serif;
   color: white;
+  margin: auto;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
 }
 
 #formulaire {
@@ -128,7 +132,7 @@ span {
   width: 31, 33%;
   margin: 45px;
   border-radius: 8px;
-  padding: 45px;
+  padding: 10px;
   height: fit-content;
 }
 
