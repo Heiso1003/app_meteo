@@ -105,20 +105,24 @@ h3 {
   margin-left: 45px;
   border-radius: 8px;
   border: #0D1B23 1px solid;
-  padding: 10px;
+  padding: 6px;
   width: 32%;
 }
 
 #go {
   background-color: #293355;
   color: white !important;
-  padding: 12px;
+  padding: 8px;
   width: 60px;
   color: var(--bleunoir);
   border: none;
   border-radius: 8px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+}
+
+#contenu h3#center {
+  text-align: center;
 }
 
 #contenu div#capital {
@@ -153,7 +157,7 @@ span {
   font-weight: bold;
   font-size: 45px;
   text-align: center;
-  margin-left: 75px;
+  margin-left: 87px;
 }
 
 #contenu div {
