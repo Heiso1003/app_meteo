@@ -27,10 +27,10 @@ $(document).ready(function(){
 
             // CURRENT DAY
             if (city=="Bruxelles-1" ) {
-                $('#aujourdhui h1').html("Bruxelles");
+                $('#capital h1').html("Bruxelles");
             }
             else {
-                $('#aujourdhui h1').html(city);
+                $('#capital h1').html(city);
             }
         $('#aujourdhui h2').html(Obj.fcst_day_0.day_long + " " + Obj.current_condition.date)
         $('#aujourdhui h3').html(Obj.current_condition.condition)
