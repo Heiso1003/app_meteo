@@ -1,12 +1,29 @@
-body{
-    background-color: rgb(35, 25, 90);
+:root {
+  --bleunoir: #0D1B23;
+  --bleu: #0D1B23;
+  --mauve: #0D1B23;
+  
+}
 
-  }
 
   p{
     color: white;
   }
 
-  h2{
+  h1,h2{
     color: white;
   }
+
+  #contenu div{
+    background-color: rgb(35, 25, 90);
+    height: 300px;
+    width: 31,33%;
+    margin: 25px;
+  }
+
+  img{
+    width: 75px;
+    height: 75px;
+    margin: 45px;
+  }
+  
