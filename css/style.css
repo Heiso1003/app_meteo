@@ -158,3 +158,58 @@ img {
 #contenu div div.info p {
   margin: 15px;
 }
+
+.N {
+  background-image: url("/img/rosedesvents.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.NE {
+  background-image: url("/img/rosedesvents.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  rotate: 45deg;
+}
+
+.E {
+  background-image: url("/img/rosedesvents.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  rotate: 90deg;
+}
+
+.SE {
+  background-image: url("/img/rosedesvents.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  rotate: 135deg;
+}
+
+.S {
+  background-image: url("/img/rosedesvents.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  rotate: 180deg;
+}
+
+.SO {
+  background-image: url("/img/rosedesvents.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  rotate: 225deg;
+}
+
+.NO {
+  background-image: url("/img/rosedesvents.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  rotate: 270deg;
+}
