@@ -39,9 +39,10 @@ body{
     font-weight: regular;
   }
 
-  // .inserer{
-  //   margin-bottom: 45px;
-  // }
+   .inserer{
+     margin-bottom: 45px;
+     
+   }
   #formulaire{
     color: white;
     margin-left: 45px;
@@ -98,12 +99,13 @@ body{
 
   #capital {
     color: white!important;
-    padding: 45px;
     text-transform: capitalize;
-    
-
+    margin-left: 45px;
   }
-
+.degr{
+  display: flex;
+  justify-content: center;
+}
   span{
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -111,7 +113,7 @@ body{
     font-weight: bold;
     font-size: 45px;
     text-align: center;
-    margin-left: 87px;
+
   }
 
 
@@ -130,9 +132,11 @@ body{
   img{
     width: 75px;
     height: 75px;
-    margin-left: 75px;
-    margin-top: 45px;
-    margin-bottom: 45px;
+
+  }
+  .image{
+    display: flex;
+    justify-content: center;
   }
 
   #contenu div div.info{
