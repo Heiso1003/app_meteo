@@ -38,6 +38,8 @@ $(document).ready(function(){
         $('#aujourdhui img').attr( 'src', Obj.fcst_day_1.icon_big)
         $('#aujourdhui span').html('Température: ' +Obj.current_condition.tmp+'° ')
         $('#aujourdhui p').html('Humidité : ' +Obj.current_condition.humidity+' % ')
+        $('#aujourdhui .vent').html('Vitesse : ' +Obj.current_condition.wnd_spd+' km/h  '+ Obj.current_condition.wnd_dir)
+        $('#aujourdhui .pression').html('Pression : ' +Obj.current_condition.pressure+' Pa')
 
 
   //  var txt = "";
