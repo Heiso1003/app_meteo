@@ -76,6 +76,7 @@ p {
 h1 {
   color: white;
   font-family: "Lobster", cursive;
+  font-size: 35px;
 }
 
 h2 {
@@ -88,6 +89,12 @@ h3 {
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: regular;
+}
+
+#contenu div#capital {
+  background-color: var(--bleunoir);
+  margin-bottom: -17%;
+  padding-left: 0;
 }
 
 #capital {
