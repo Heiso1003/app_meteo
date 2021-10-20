@@ -5,7 +5,7 @@ $(document).ready(function(){
 
     var city = $('#ville').val();
 
-    $('h1').html(' Ville : ' +city)
+    $('h1').html(city)
         $.ajax({
           //1 definir le fichier à appeler
           url : 'https://www.prevision-meteo.ch/services/json/'+city,		
