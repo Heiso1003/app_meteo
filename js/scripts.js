@@ -1,22 +1,37 @@
 $(document).ready(function(){
 
+    MaFonctionAjax("Bruxelles-1");
+    
+	$( "#go" ).click(function() {
+        let city = $('#ville').val();
 
-    $('#go').click(function (){
+        if (city=="Bruxelles" ) {
+            city="Bruxelles-1";
+        }
+        
+        MaFonctionAjax(city);
+        console.log(city)
+        });
+       
+       
+        function MaFonctionAjax(city) {
+       
+            $.ajax( {
 
-    var city = $('#ville').val();
-
-        $.ajax({
-          //1 definir le fichier à appeler
-          url : 'https://www.prevision-meteo.ch/services/json/'+city,		
-          //2 methode utilisée pour envoyer les variables
-
-          success : function(Obj){
-  console.log(Obj)
-
+                url:'https://www.prevision-meteo.ch/services/json/'+city,	
+                
+                
+                
+                success:function(Obj) {
+                       console.log(Obj);
 
             // CURRENT DAY
-            
-        $('#aujourdhui h1').html(city)
+            if (city=="Bruxelles-1" ) {
+                $('#aujourdhui h1').html("Bruxelles");
+            }
+            else {
+                $('#aujourdhui h1').html(city);
+            }
         $('#aujourdhui h2').html(Obj.fcst_day_0.day_long + " " + Obj.current_condition.date)
         $('#aujourdhui h3').html(Obj.current_condition.condition)
         $('#aujourdhui img').attr( 'src', Obj.fcst_day_0.icon_big)
@@ -28,7 +43,6 @@ $(document).ready(function(){
 
             // DAY 1
 
-        $('#jour1 h1').html(city)
         $('#jour1 h2').html(Obj.fcst_day_1.day_long + " " + Obj.fcst_day_1.date)
         $('#jour1 h3').html(Obj.fcst_day_1.condition)
         $('#jour1 img').attr( 'src', Obj.fcst_day_1.icon_big)
@@ -36,13 +50,17 @@ $(document).ready(function(){
         $('#jour1 p').html('Température max : ' +Obj.fcst_day_1.tmax+' % ')
 
       
-          }
-        
-    
-    
-    })
-})
+    } // success function
+                 
+}); // ajax
 
 
 
-})
+
+
+
+}
+
+
+
+});  // ready	
