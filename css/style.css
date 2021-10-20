@@ -91,10 +91,54 @@ h3 {
   font-weight: regular;
 }
 
+#formulaire {
+  color: white;
+  margin-left: 45px;
+  margin-top: 45px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#ville {
+  margin-left: 45px;
+  border-radius: 8px;
+  border: #0D1B23 1px solid;
+  padding: 10px;
+  width: 32%;
+}
+
+#go {
+  background-color: #293355;
+  color: white !important;
+  padding: 12px;
+  width: 60px;
+  color: var(--bleunoir);
+  border: none;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
 #contenu div#capital {
   background-color: var(--bleunoir);
   margin-bottom: -17%;
   padding-left: 0;
+  margin-top: 10px;
+}
+
+#contenu div span.temperature {
+  font-weight: regular;
+  margin-left: 0%;
+  font-size: 20px;
+}
+
+#contenu div p.tempmax {
+  font-weight: regular;
+  margin-left: 0%;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #capital {
@@ -110,33 +154,6 @@ span {
   font-size: 45px;
   text-align: center;
   margin-left: 75px;
-}
-
-#formulaire {
-  color: white;
-  margin-left: 45px;
-  margin-top: 45px;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-}
-
-#ville {
-  margin-left: 45px;
-  border-radius: 8px;
-  border: #0D1B23 1px solid;
-  padding: 10px;
-}
-
-#go {
-  background-color: #23195a;
-  color: white !important;
-  padding: 12px;
-  width: 105px;
-  color: var(--bleunoir);
-  border: none;
-  border-radius: 8px;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
 }
 
 #contenu div {
@@ -176,57 +193,62 @@ img {
   padding: 0%;
 }
 
+#contenu div.rose_vent {
+  background-color: transparent;
+  margin: 0%;
+}
+
 .N {
   background-image: url("/img/rosedesvents.png");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .NE {
   background-image: url("/img/rosedesvents.png");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  rotate: 45deg;
+  transform: rotate(45deg);
 }
 
 .E {
   background-image: url("/img/rosedesvents.png");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  rotate: 90deg;
+  transform: rotate(90deg);
 }
 
 .SE {
   background-image: url("/img/rosedesvents.png");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  rotate: 135deg;
+  transform: rotate(135deg);
 }
 
 .S {
   background-image: url("/img/rosedesvents.png");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  rotate: 180deg;
+  transform: rotate(180deg);
 }
 
 .SO {
   background-image: url("/img/rosedesvents.png");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  rotate: 225deg;
+  transform: rotate(225deg);
 }
 
 .NO {
   background-image: url("/img/rosedesvents.png");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  rotate: 270deg;
+  transform: rotate(270deg);
 }
