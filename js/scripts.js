@@ -49,7 +49,38 @@ $(document).ready(function(){
         $('#jour1 img').attr( 'src', Obj.fcst_day_1.icon_big)
         $('#jour1 span').html('Température min: ' +Obj.fcst_day_1.tmin+'° ')
         $('#jour1 p').html('Température max : ' +Obj.fcst_day_1.tmax+' % ')
+        
+            // DAY 2
 
+        $('#jour2 h2').html(Obj.fcst_day_2.day_long + " " + Obj.fcst_day_2.date)
+        $('#jour2 h3').html(Obj.fcst_day_2.condition)
+        $('#jour2 img').attr( 'src', Obj.fcst_day_2.icon_big)
+        $('#jour2 span').html('Température min: ' +Obj.fcst_day_2.tmin+'° ')
+        $('#jour2 p').html('Température max : ' +Obj.fcst_day_2.tmax+' % ')
+        
+            // DAY 3
+
+        $('#jour3 h2').html(Obj.fcst_day_3.day_long + " " + Obj.fcst_day_3.date)
+        $('#jour3 h3').html(Obj.fcst_day_3.condition)
+        $('#jour3 img').attr( 'src', Obj.fcst_day_3.icon_big)
+        $('#jour3 span').html('Température min: ' +Obj.fcst_day_3.tmin+'° ')
+        $('#jour3 p').html('Température max : ' +Obj.fcst_day_3.tmax+' % ')
+        
+            // DAY 4
+
+        $('#jour4 h2').html(Obj.fcst_day_4.day_long + " " + Obj.fcst_day_4.date)
+        $('#jour4 h3').html(Obj.fcst_day_4.condition)
+        $('#jour4 img').attr( 'src', Obj.fcst_day_4.icon_big)
+        $('#jour4 span').html('Température min: ' +Obj.fcst_day_4.tmin+'° ')
+        $('#jour4 p').html('Température max : ' +Obj.fcst_day_4.tmax+' % ')
+
+            // DAY 5 
+
+        $('#jour5 h2').html(Obj.fcst_day_5.day_long + " " + Obj.fcst_day_5.date)
+        $('#jour5 h3').html(Obj.fcst_day_5.condition)
+        $('#jour5 img').attr( 'src', Obj.fcst_day_5.icon_big)
+        $('#jour5 span').html('Température min: ' +Obj.fcst_day_5.tmin+'° ')
+        $('#jour5 p').html('Température max : ' +Obj.fcst_day_5.tmax+' % ') 
       
     } // success function
                  
