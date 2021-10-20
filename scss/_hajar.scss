@@ -45,6 +45,7 @@ body{
     font-weight: bold;
     font-size: 45px;
     text-align: center;
+    margin-left: 75px;
   }
 
 
@@ -60,13 +61,13 @@ body{
     margin-left: 45px;
     border-radius: 8px;
     border: #0D1B23 1px solid;
-    padding: 15px;
+    padding: 10px;
   }
 
   #go{
     background-color: rgb(35, 25, 90);
     color: white!important;
-    padding: 16px;
+    padding: 12px;
     width: 105px;
     color: var(--bleunoir);
     border: none;
@@ -81,13 +82,29 @@ body{
     width: 31,33%;
     margin: 45px;
     border-radius: 8px;
-    padding: 10px;
+    padding: 25px;
     height: fit-content;
   }
 
   img{
     width: 75px;
     height: 75px;
-    margin: 45px;
+    margin-left: 75px;
+    margin-top: 45px;
+    margin-bottom: 45px;
   }
+
+  #contenu div div.info{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    padding: 15px;
+    background-color: #293355;
+}
+
+#contenu div div.info p{
+  margin: 15px;
+}
   
