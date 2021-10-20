@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
 #resolution {
   position: fixed;
   height: 40px;
@@ -70,19 +71,39 @@ h1, h2 {
   color: white;
 }
 
+#formulaire {
+  color: var(--bleunoir);
+  margin-left: 45px;
+  margin-top: 45px;
+  font-family: "Roboto", sans-serif;
+}
+
+#ville {
+  margin-left: 45px;
+  border-radius: 8px;
+  border: #0D1B23 1px solid;
+  padding: 15px;
+}
+
+#go {
+  background-color: var(--bleunoir);
+  color: white;
+  padding: 17px;
+  width: 105px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
 #contenu div {
   background-color: #23195a;
   height: 300px;
   width: 31, 33%;
-  margin: 25px;
+  margin: 45px;
 }
 
 img {
   width: 75px;
   height: 75px;
   margin: 45px;
-}
-
-h1 {
-  color: red;
 }
