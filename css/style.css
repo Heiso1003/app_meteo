@@ -76,6 +76,7 @@ p {
 h1 {
   color: white;
   font-family: "Lobster", cursive;
+  font-size: 35px;
 }
 
 h2 {
@@ -88,6 +89,12 @@ h3 {
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: regular;
+}
+
+#contenu div#capital {
+  background-color: var(--bleunoir);
+  margin-bottom: -17%;
+  padding-left: 0;
 }
 
 #capital {
@@ -167,4 +174,59 @@ img {
 #contenu div .col-xs-4 {
   margin: 0%;
   padding: 0%;
+}
+
+.N {
+  background-image: url("/img/rosedesvents.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.NE {
+  background-image: url("/img/rosedesvents.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  rotate: 45deg;
+}
+
+.E {
+  background-image: url("/img/rosedesvents.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  rotate: 90deg;
+}
+
+.SE {
+  background-image: url("/img/rosedesvents.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  rotate: 135deg;
+}
+
+.S {
+  background-image: url("/img/rosedesvents.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  rotate: 180deg;
+}
+
+.SO {
+  background-image: url("/img/rosedesvents.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  rotate: 225deg;
+}
+
+.NO {
+  background-image: url("/img/rosedesvents.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  rotate: 270deg;
 }

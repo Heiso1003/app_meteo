@@ -37,7 +37,8 @@ $(document).ready(function(){
         $('#aujourdhui img').attr( 'src', Obj.fcst_day_0.icon_big)
         $('#aujourdhui span').html(Obj.current_condition.tmp+'° ')
         $('#aujourdhui p').html('Humidité : ' +Obj.current_condition.humidity+' % ')
-        $('#aujourdhui .vent').html('Vitesse : ' +Obj.current_condition.wnd_spd+' km/h  '+ Obj.current_condition.wnd_dir)
+        $('#aujourdhui .vent').html('Vitesse : ' +Obj.current_condition.wnd_spd+' km/h')
+        $('#aujourdhui .rose_vent').removeClass().addClass("rose_vent "+ Obj.current_condition.wnd_dir)
         $('#aujourdhui .pression').html('Pression : ' +Obj.current_condition.pressure+' Pa')
 
 
