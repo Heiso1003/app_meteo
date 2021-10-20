@@ -24,6 +24,7 @@ body{
   h1{
     color: white;
     font-family: 'Lobster', cursive;
+    font-size: 35px;
   }
 
   h2{
@@ -35,7 +36,18 @@ body{
   h3{
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: regular;
+  }
+
+  #contenu div#capital{
+    background-color: var(--bleunoir);
+    margin-bottom: -17%;
+    padding-left: 0;
+  }
+
+  #capital {
+    color: white!important;
+    padding: 45px;
   }
 
   span{
@@ -107,4 +119,8 @@ body{
 #contenu div div.info p{
   margin: 15px;
 }
-  
+
+#contenu div .col-xs-4{
+margin: 0%;
+padding: 0%;
+}
