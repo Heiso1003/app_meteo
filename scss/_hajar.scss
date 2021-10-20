@@ -8,6 +8,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
 
 
+
+body{
+  background-color: #0D1B23;
+}
+
   p{
     color: white;
   }
@@ -17,7 +22,7 @@
   }
 
   #formulaire{
-    color: var(--bleunoir);
+    color: white;
     margin-left: 45px;
     margin-top: 45px;
     font-family: 'Roboto', sans-serif;
@@ -31,17 +36,19 @@
   }
 
   #go{
-    background-color: var(--bleunoir);
-    color: white;
-    padding: 17px;
+    background-color: rgb(35, 25, 90);
+    color: white!important;
+    padding: 16px;
     width: 105px;
-    color: white;
+    color: var(--bleunoir);
     border: none;
     border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
   }
 
   #contenu div{
-    background-color: rgb(35, 25, 90);
+    background-color: #1B2B38;
     height: 300px;
     width: 31,33%;
     margin: 45px;

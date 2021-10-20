@@ -1,66 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
-#resolution {
-  position: fixed;
-  height: 40px;
-  background-color: yellow;
-  top: 0p;
-  left: 0;
-  width: 100%;
-  content: "XS < 576";
-  text-align: center;
-  opacity: 0.5;
-  color: black;
-}
 
-#resolution:after {
-  content: "XS < 576";
-}
 
-@media (min-width: 576px) {
-  #resolution {
-    background-color: orange;
-  }
-}
-@media (min-width: 768px) {
-  #resolution {
-    background-color: purple;
-  }
-
-  #resolution:after {
-    content: "MD > 768 < 992";
-  }
-}
-@media (min-width: 992px) {
-  #resolution {
-    background-color: green;
-  }
-
-  #resolution:after {
-    content: "LG > 992 < 1200";
-  }
-}
-@media (min-width: 1200px) {
-  #resolution {
-    background-color: blue;
-  }
-
-  #resolution:after {
-    content: "XL > 1200 < 1400";
-  }
-}
-@media (min-width: 1400px) {
-  #resolution {
-    background-color: pink;
-  }
-
-  #resolution:after {
-    content: "XXL > 1400 < 1080";
-  }
-}
 :root {
   --bleunoir: #0D1B23;
   --bleu: #0D1B23;
   --mauve: #0D1B23;
+}
+
+body {
+  background-color: #0D1B23;
 }
 
 p {
@@ -72,7 +20,7 @@ h1, h2 {
 }
 
 #formulaire {
-  color: var(--bleunoir);
+  color: white;
   margin-left: 45px;
   margin-top: 45px;
   font-family: "Roboto", sans-serif;
@@ -86,17 +34,19 @@ h1, h2 {
 }
 
 #go {
-  background-color: var(--bleunoir);
-  color: white;
-  padding: 17px;
+  background-color: #23195a;
+  color: white !important;
+  padding: 16px;
   width: 105px;
-  color: white;
+  color: var(--bleunoir);
   border: none;
   border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
 
 #contenu div {
-  background-color: #23195a;
+  background-color: #1B2B38;
   height: 300px;
   width: 31, 33%;
   margin: 45px;
